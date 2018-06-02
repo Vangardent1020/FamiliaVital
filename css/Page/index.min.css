@@ -1,0 +1,32 @@
+header {
+  padding: 2%; }
+
+.bg-blue {
+  background-color: #2a3b80; }
+  .bg-blue a {
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif; }
+    .bg-blue a:hover {
+      color: #7FDBFF;
+      font-size: 1.1em; }
+  .bg-blue .navbar-nav {
+    width: 90%; }
+
+.footer {
+  background-color: #2a3b80;
+  padding: 2% 0%; }
+  .footer .menu li {
+    margin: -1% 0%; }
+  .footer a {
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    left: 35%; }
+    .footer a:hover {
+      color: #7FDBFF; }
+  .footer p {
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    text-align: center; }
+
+/*# sourceMappingURL=index.min.css.map */
