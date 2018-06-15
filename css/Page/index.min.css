@@ -1,16 +1,27 @@
 header {
   padding: 2%; }
 
+.spacing {
+  padding: 4% 1% 0%; }
+
 .bg-blue {
   background-color: #2a3b80; }
   .bg-blue a {
     color: #FFFFFF;
-    font-family: "Roboto", sans-serif; }
+    font-family: "Roboto", sans-serif;
+    font-size: 50%; }
     .bg-blue a:hover {
       color: #7FDBFF;
-      font-size: 1.1em; }
-  .bg-blue .navbar-nav {
-    width: 90%; }
+      font-size: 55%; }
+
+.navbar-nav {
+  width: 90%; }
+
+.icoStyle {
+  color: #FFFFFF; }
+
+.active a {
+  color: #7FDBFF; }
 
 .footer {
   background-color: #2a3b80;
@@ -21,12 +32,99 @@ header {
     color: #FFFFFF;
     font-family: "Roboto", sans-serif;
     position: relative;
-    left: 35%; }
+    left: 34%; }
     .footer a:hover {
       color: #7FDBFF; }
   .footer p {
     color: #FFFFFF;
     font-family: "Roboto", sans-serif;
     text-align: center; }
+
+.copyright {
+  background-color: #2a3b80;
+  color: #FFFFFF;
+  font-size: 100%;
+  padding: 2% 0% 1%;
+  text-align: center; }
+
+.tittle {
+  font-family: "Lobster", cursive;
+  font-size: 400%;
+  color: #2a3b80;
+  text-align: center;
+  padding: 3% 0%; }
+
+.selectMenu {
+  margin: 2%; }
+  .selectMenu a {
+    font-family: "Roboto", sans-serif;
+    font-size: 100%;
+    padding: 1% 5%;
+    color: #111111; }
+    .selectMenu a:hover {
+      color: #689f38;
+      font-weight: 600; }
+  .selectMenu .active {
+    color: #689f38;
+    font-weight: 600; }
+
+.backgroundBlockquote {
+  background-color: #2a3b80;
+  color: #FFFFFF;
+  border-radius: 0.25rem; }
+
+.component {
+  margin: 2% 0%; }
+  .component h5 {
+    font-family: "Lobster", cursive;
+    font-size: 200%; }
+  .component h2 {
+    font-family: "Lobster", cursive;
+    font-size: 200%;
+    color: #689f38;
+    text-align: center; }
+
+.text {
+  font-family: "Roboto", sans-serif;
+  font-size: 80%;
+  padding: 2%; }
+
+.titulo {
+  margin-bottom: 6%; }
+
+.listaJob {
+  padding: 2%; }
+  .listaJob .btn-cargue {
+    margin: 7%;
+    background-color: #2a3b80;
+    color: #FFFFFF; }
+
+.form-cargue {
+  margin: 3%; }
+  .form-cargue label {
+    padding: 3% 0%;
+    font-family: "Roboto", sans-serif;
+    font-size: 100%; }
+  .form-cargue .file-input:hover::before {
+    background-color: #2a3b80; }
+
+@media (max-width: 575.98px) {
+  .copyright {
+    font-size: 75%; } }
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .footer a {
+    font-size: 80%; }
+  .footer p {
+    font-size: 75%; }
+
+  .copyright {
+    font-size: 80%; }
+
+  .component h5 {
+    font-size: 120%; }
+
+  .text {
+    font-size: 65%;
+    padding: 2%; } }
 
 /*# sourceMappingURL=index.min.css.map */

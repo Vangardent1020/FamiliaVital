@@ -1,6 +1,9 @@
 // Estilos header
 header
      padding: 2%
+
+.spacing
+     padding: 4% 1% 0%
 // Estilos Navbar
 .bg-blue
      // estilos navbar
@@ -9,12 +12,22 @@ header
           // estilos link del navbar
           color: $white
           font-family: $font-component
+          font-size: $h1-nav
           &:hover
                color: $aqua
-               font-size: 1.1em
+               font-size: $h1_nav-hover
 
-     .navbar-nav
-          width: 90%
+.navbar-nav
+     width: 90%
+
+.icoStyle
+     color: $white
+
+
+
+.active
+     a
+          color: $aqua
 
 // Estilos Footer
 .footer
@@ -32,7 +45,7 @@ header
           color: $white
           font-family: $font-component
           position: relative
-          left: 35%
+          left: 34%
           &:hover
                color: $aqua
      p
@@ -40,3 +53,11 @@ header
           color: $white
           font-family: $font-component
           text-align: center
+          
+// Estilos copyright
+.copyright
+     background-color: $color-primary
+     color: $white
+     font-size: $h4
+     padding: 2% 0% 1%
+     text-align: center
