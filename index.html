@@ -13,34 +13,34 @@
      <!-- favicon -->
      <link rel="icon" href="../resources/img/icosPage/favicon.png">
      <!-- stylesheet framework -->
-     <link rel="stylesheet" type="text/css" href="css/vendor/bootstrap/bootstrap.min.css" media="all">
-     <link rel="stylesheet" type="text/css" href="css/vendor/bootstrap/normalize.min.css" media="all">
+     <link rel="stylesheet" type="text/css" href="../css/vendor/bootstrap/bootstrap.min.css" media="all">
+     <link rel="stylesheet" type="text/css" href="../css/vendor/bootstrap/normalize.min.css" media="all">
      <!-- <link rel="stylesheet" type="text/css" href="css/vendor/material/material.min.css" media="all"> -->
      <!-- stylesheet plugins-->
-     <link rel="stylesheet" type="text/css" href="plugins/LoadPage/loader_page.css" media="all">
-     <link rel="stylesheet" type="text/css" href="plugins/select/bootstrap-select.css" media="all">
+     <link rel="stylesheet" type="text/css" href="../plugins/LoadPage/loader_page.css" media="all">
+     <link rel="stylesheet" type="text/css" href="../plugins/select/bootstrap-select.css" media="all">
      <!-- stylesheet page -->
-     <link rel="stylesheet" type="text/css" href="css/page/index.min.css" media="all">
+     <link rel="stylesheet" type="text/css" href="../css/page/index.min.css" media="all">
      <!--fonts -->
      <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto" rel="stylesheet">
      <!-- icos -->
      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
      <!--  javascript  framework-->
-     <script type="text/javascript" src="js/vendor/jquery.min.js"></script>
-     <script type="text/javascript" src="js/vendor/modernizr.min.js"></script>
-     <script type="text/javascript" src="js/vendor/popper/popper.min.js"></script>
-     <script type="text/javascript" src="js/vendor/bootstrap/bootstrap.min.js"></script>
+     <script type="text/javascript" src="../js/vendor/jquery.min.js"></script>
+     <script type="text/javascript" src="../js/vendor/modernizr.min.js"></script>
+     <script type="text/javascript" src="../js/vendor/popper/popper.min.js"></script>
+     <script type="text/javascript" src="../js/vendor/bootstrap/bootstrap.min.js"></script>
      <!-- <script type="text/javascript" src="js/vendor/material/material.min.js"></script> -->
      <!--  javascript plugins -->
-     <script type="text/javascript" src="plugins/LoadPage/loader_page.js"></script>
-     <script type="text/javascript" src="plugins/select/bootstrap-select.js"></script>
+     <script type="text/javascript" src="../plugins/LoadPage/loader_page.js"></script>
+     <script type="text/javascript" src="../plugins/select/bootstrap-select.js"></script>
      <!-- Etiqueta tittle -->
      <title>Home</title>
 </head>
 
 <body>
      <!-- Section header -->
-     <header>
+     <header class="header">
           <div class="container-fluid">
                <div class="row align-items-center">
 
@@ -83,7 +83,7 @@
                          <a class="nav-link " href="../html/quienesSomos.html"><h1>Quienes somos </h1><span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                         <a class="nav-link" href="#"><h1>Servicios</h1></a>
+                         <a class="nav-link" href="../html/servicios.html"><h1>Servicios</h1></a>
                     </li>
                     <li class="nav-item">
                          <a class="nav-link" href="../html/asesores.html"><h1>Asesores</h1></a>
@@ -92,7 +92,7 @@
                          <a class="nav-link " href="../html/preguntasF.html"><h1>Preguntas frecuentes</h1></a>
                     </li>
                     <li class="nav-item">
-                         <a class="nav-link " href="#"><h1>Contacto</h1></a>
+                         <a class="nav-link " href="../html/servicios.html"><h1>Contacto</h1></a>
                     </li>
                </ul>
           </div>
@@ -142,21 +142,23 @@
                     <div class="menu">
                          <ul class="nav flex-column ">
                               <li><a class="btn btn-link" role="button" href="../html/quienesSomos.html">Quienes somos</a></li>
-                              <li><a class="btn btn-link" role="button" href="#">Servicios</a></li>
+                              <li><a class="btn btn-link" role="button" href="../html/servicios.html">Servicios</a></li>
                               <li><a class="btn btn-link" role="button" href="../html/asesores.html">Asesores</a></li>
                               <li><a class="btn btn-link" role="button" href="../html/preguntasF.html">Preguntas frecuentes</a></li>
-                              <li><a class="btn btn-link" role="button" href="#">Contacto</a></li>
+                              <li><a class="btn btn-link" role="button" href="../html/servicios.html">Contacto</a></li>
                          </ul>
                     </div>
                </div>
                <!-- Social Media -->
                <div class="col-sm-4 ">
-                    <p>Encuentranos en</p>
-                    <ul class="nav flex-column">
-                         <li><a class="btn bnt-link" role="button" target="_blank" href="https://www.facebook.com/clubfamiliavital/"><img src="../resources/img/icosPage/footer/facebookIco.svg" width="25" height="25" class="d-inline-block align-top imgBottom" alt=""> Facebook</a></li>
-                         <li><a class="btn bnt-link" role="button" target="_blank" href="https://twitter.com/Clubfamilavital"><img src="../resources/img/icosPage/footer/twitterIco.svg" width="25" height="25" class="d-inline-block align-top imgBottom" alt=""> Twitter</a></li>
-                         <li><a class="btn bnt-link" role="button" target="_blank" href="https://www.instagram.com/olgaluciasalazarjaimes/"><img src="../resources/img/icosPage/footer/instagramIco.svg" width="25" height="25" class="d-inline-block align-top imgBottom" alt=""> Instagram</a></li>
-                    </ul>
+                    <div class="menu">
+                         <p>Encuentranos en</p>
+                         <ul class="nav flex-column">
+                              <li><a class="btn bnt-link" role="button" target="_blank" href="https://www.facebook.com/clubfamiliavital/"><img src="../resources/img/icosPage/footer/facebookIco.svg" width="25" height="25" class="d-inline-block align-top imgBottom" alt=""> Facebook</a></li>
+                              <li><a class="btn bnt-link" role="button" target="_blank" href="https://twitter.com/Clubfamilavital"><img src="../resources/img/icosPage/footer/twitterIco.svg" width="25" height="25" class="d-inline-block align-top imgBottom" alt=""> Twitter</a></li>
+                              <li><a class="btn bnt-link" role="button" target="_blank" href="https://www.instagram.com/olgaluciasalazarjaimes/"><img src="../resources/img/icosPage/footer/instagramIco.svg" width="25" height="25" class="d-inline-block align-top imgBottom" alt=""> Instagram</a></li>
+                         </ul>
+                    </div>
                </div>
                <!-- Contacto -->
                <div class="col-sm-4">

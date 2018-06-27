@@ -18,6 +18,7 @@
      h5
           font-family: $font-title
           font-size: $h3
+          color: $color-quaternary
 
      h2
           font-family: $font-title
@@ -25,6 +26,24 @@
           color: $color-secondary
           text-align: center
           margin: 3% 0% 3%
+
+@mixin blockquoteColor ($fondo)
+     background-color: $fondo
+     color: $white
+     border-radius: 0.25rem
+     margin: 1% 0%
+
+#nServicios
+     @include blockquoteColor($color-primary)
+
+#nServicios1
+     @include blockquoteColor($color-quaternary)
+
+#nServicios2
+     @include blockquoteColor($color-secondary)
+
+#descripcion
+     @include blockquoteColor($color-primary)
 
 .animation
      animation-duration: 4s
@@ -58,3 +77,7 @@
      &:focus
           text-decoration: none
           color: $purple
+
+.card-deck
+     width: 100%
+     
